@@ -1,5 +1,5 @@
 # tab-renamer
-A first attempt at developing and using Firefox WebExtensions using background scripts free of UI.
+Saves Firefox tabs as files, and renames them in the order they were created. A first attempt at developing and using Firefox WebExtensions using background scripts free of UI.
 
 ## How to use
 1. Clone/download this repo to your PC
