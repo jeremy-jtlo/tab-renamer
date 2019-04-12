@@ -1,0 +1,27 @@
+{
+
+    "manifest_version": 2,
+    "name": "Tab-Saver-Renamer",
+    "version": "1.0",
+  
+    "description": "Saves selected tabs as files, re-named according to the browser window and order they were created.",
+  
+    "icons": {
+      "48": "img/folder.png"
+    },
+
+    "background": {
+      "scripts": [
+          "background.js"
+      ]
+    },
+
+    "permissions": [
+      "<all_urls>",
+      "activeTab",
+      "contextMenus",
+      "downloads",
+      "tabs"
+    ]
+  
+}
